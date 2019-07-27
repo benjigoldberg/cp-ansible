@@ -31,4 +31,4 @@
 - hosts: broker
   tasks:
   - import_role:
-    name: confluent.kafka-broker
+      name: confluent.kafka-broker
