@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=ubuntu
 WorkingDirectory=/srv/topics-ui
-ExecStart=/usr/bin/http-server -p 8080 .
+ExecStart=/usr/bin/http-server -p 8085 .
 Restart=always
 
 [Install]
