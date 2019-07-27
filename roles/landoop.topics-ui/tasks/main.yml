@@ -17,6 +17,8 @@
 - name: Bower Install for Topics UI
   bower:
     path: /srv/topics-ui
+- name: Fetch Public IP Address
+  ipify_facts:
 - name: Place environment configuration
   template:
     src: env.js
