@@ -30,6 +30,8 @@
       name: landoop.topics-ui
   - import_role:
       name: landoop.connect-ui
+  - import_role:
+      name: landoop.schema-registry-ui
 - hosts: broker
   tasks:
   - import_role:
