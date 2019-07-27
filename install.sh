@@ -4,4 +4,4 @@ sudo apt-get install ansible git -y
 
 
 sudo ansible-galaxy install -r requirements.yml
-#sudo ansible-playbook all.yml -i hosts.yml
+sudo ansible-playbook all.yml -i hosts.yml
