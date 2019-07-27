@@ -30,4 +30,5 @@
   systemd:
     name: topics-ui.service
     enabled: true
+    force: true
     state: started
