@@ -1,6 +1,6 @@
 var clusters = [
     {
-      NAME: "dev",
+      NAME: "workspace",
       KAFKA_REST: "http://{{ hostvars[inventory_hostname]['ipify_public_ip'] }}:8082",
       MAX_BYTES: "50000",
       RECORD_POLL_TIMEOUT: "3000",
