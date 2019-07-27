@@ -19,7 +19,8 @@
     path: /srv/schema-registry-ui
 - name: Run webpack
   command: /usr/bin/npm run build-prod
-  chdir: /srv/schema-registry-ui
+  args:
+    chdir: /srv/schema-registry-ui
 - name: Fetch Public IP Address
   ipify_facts:
 - name: Place environment configuration
