@@ -28,6 +28,8 @@
       - post-install
   - import_role:
       name: landoop.topics-ui
+  - import_role:
+      name: landoop.connect-ui
 - hosts: broker
   tasks:
   - import_role:
