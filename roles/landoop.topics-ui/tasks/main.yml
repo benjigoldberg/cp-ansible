@@ -16,6 +16,10 @@
 - name: Bower Install for Topics UI
   bower:
     path: /srv/topics-ui
+- name: Place environment configuration
+  template:
+    src: env.js
+    dest: /srv/topics-ui/env.js
 - name: Place systemd unit
   template:
     src: topics-ui.service
