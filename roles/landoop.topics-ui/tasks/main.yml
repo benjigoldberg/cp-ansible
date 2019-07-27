@@ -2,6 +2,7 @@
   git:
     repo: https://github.com/Landoop/kafka-topics-ui
     dest: /srv/topics-ui
+    force: true
 - name: Install Bower
   npm:
     name: bower
