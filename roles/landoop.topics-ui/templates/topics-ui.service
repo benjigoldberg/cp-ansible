@@ -1,0 +1,9 @@
+[Unit]
+Description=Landoop Kafka Topics UI
+
+[Service]
+Type=notify
+ExecStart=http-server -p 8080 .
+
+[Install]
+WantedBy=multi-user.target

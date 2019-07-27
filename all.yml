@@ -14,8 +14,6 @@
       - pre-install
   - import_role:
       name: confluent.zookeeper
-      #  - import_role:
-      #      name: confluent.kafka-broker
   - import_role:
       name: confluent.schema-registry
   - import_role:
@@ -28,6 +26,8 @@
       name: confluent.tools
     tags:
       - post-install
+  - import_role:
+      name: landoop.topics-ui
 - hosts: broker
   tasks:
   - import_role:
